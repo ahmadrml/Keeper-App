@@ -1,7 +1,12 @@
-import express from 'express';
-import mongoose from 'mongoose';
-import Note from './NoteModel';
-import morgan from 'morgan';
+// import express from 'express';
+// import mongoose from 'mongoose';
+// import morgan from 'morgan';
+// import {Note} from './NoteModel';
+const express = require('express');
+const mongoose = require('mongoose');
+const morgan = require('morgan');
+const Note = require('./NoteModel');
+
 
 const app = express();
 
